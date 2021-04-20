@@ -27,3 +27,9 @@ Komennolla
 	git blame harjoitus.md
 
 sain näkyviin harjoitus.md tiedoston muokkaushistorian. Historiassa näkyy gittiin lisätyn commitin hash, milloin se on lisätty gittiin ja kuka sen on lisännyt. Markdown tiedostossa näkyy rivikohtaisesti, kuka on lisännyt/muokannut ja milloin.
+
+e) Tein "tyhmän" muutoksen lisäämällä turhaa tekstiä tähän markdowniin. Ajoin komennon
+
+	git reset --hard
+
+Tuloksena git palautti repositoryn edelliseen githubiin lisättyyn versioon. Tulosteessa luki version hash ja commit message.
