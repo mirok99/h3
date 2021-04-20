@@ -21,3 +21,9 @@ sain tulostettua gitissä olevan version ja xubuntussa olevan version eron. Esim
 	git diff HEAD^..HEAD
 
 Tämä komento näyttää viimeistä edellisen version ja viimeisimmän version eron. Lähde: https://www.techiedelight.com/find-differences-between-two-commits-git/
+
+Komennolla
+
+	git blame harjoitus.md
+
+sain näkyviin harjoitus.md tiedoston muokkaushistorian. Historiassa näkyy kuka on muokannut, milloin se on lisätty gittiin ja kuka sen on lisännyt. Markdown tiedostossa näkyy rivikohtaisesti, kuka on lisännyt/muokannut ja milloin.
