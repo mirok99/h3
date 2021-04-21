@@ -33,3 +33,11 @@ e) Tein "tyhmän" muutoksen lisäämällä turhaa tekstiä tähän markdowniin. 
 	git reset --hard
 
 Tuloksena git palautti repositoryn edelliseen githubiin lisättyyn versioon. Tulosteessa luki version hash ja commit message.
+
+f) Uutena ohjelmana päätin asentaa VLC työpöytäsovelluksen. Asensin ensin sudo apt install vlc ja kokeilin, että ohjelma toimii. Toimi hyvin.
+
+Tein uuden sls tiedoston joka asentaa vlc:n. VLC:n konfiguraatio löytyy /home/miro/.config/vlc kansiosta, mutta en keksinyt sieltä oikein mitään eritysitä konfiguroitavaa.
+
+! [Kuva VLC:n asennus statesta] ("https://gyazo.com/9f102f5cdae86ef7a32bc87c8c7ff144")
+
+Kuva VLC:n pkg.installedista.
