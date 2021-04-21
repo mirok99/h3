@@ -38,6 +38,6 @@ f) Uutena ohjelmana päätin asentaa VLC työpöytäsovelluksen. Asensin ensin s
 
 Tein uuden sls tiedoston joka asentaa vlc:n. VLC:n konfiguraatio löytyy /home/miro/.config/vlc kansiosta, mutta en keksinyt sieltä oikein mitään eritysitä konfiguroitavaa.
 
-![Kuva VLC:n asennus statesta] (https://i.gyazo.com/9f102f5cdae86ef7a32bc87c8c7ff144.png)
+![Kuva VLC:n asennus statesta](https://i.gyazo.com/9f102f5cdae86ef7a32bc87c8c7ff144.png)
 
 Kuva VLC:n pkg.installedista.
